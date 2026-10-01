@@ -1,5 +1,5 @@
 // NOTE: Change this URL to your Render/Railway backend URL once deployed.
-const API_URL = "http://localhost:8000"; 
+const API_URL = " https://chroma-proof.onrender.com"; 
 
 async function init() {
     // 1. Load Kit Options
