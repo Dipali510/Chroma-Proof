@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0b0f19">
+  <title>ChromaProof Companion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🧪 ChromaProof</h1>
+      <p>SIH26231 Presumptive Field Screening Companion</p>
+    </header>
+
+    <div class="disclaimer">
+      ⚠️ <strong>MANDATORY NOTICE:</strong> Presumptive field testing only. Results require confirmatory laboratory analysis (GC/MS).
+    </div>
+
+    <div class="card">
+      <div class="camera-box">
+        <video id="webcam" autoplay playsinline></video>
+      </div>
+
+      <div class="form-group">
+        <label for="operatorId">Operator Identifier</label>
+        <input type="text" id="operatorId" value="OFFICER-4021">
+      </div>
+
+      <div class="form-group">
+        <label for="kitSelect">Reagent Chemical Profile</label>
+        <select id="kitSelect"></select>
+      </div>
+
+      <button id="btnCapture" class="btn">Snap & Analyze</button>
+
+      <div id="resultBox" class="result-box"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
